@@ -20,6 +20,6 @@ void	*ft_calloc( size_t elementCount, size_t elementSize )
 
 	c = elementCount * elementSize;
 	array = malloc(sizeof(c));
-	bzero(array, c);
+	ft_bzero(array, c);
 	return (array);
 }
